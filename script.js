@@ -2,7 +2,7 @@ const input = document.getElementById("input-box");
 const list = document.getElementById("list");
 const addButton = document.getElementById("add-button");
 
-// Set up event listener for the Add button
+
 addButton.addEventListener("click", addTask);
 
 function addTask() {
@@ -16,7 +16,7 @@ function addTask() {
         span.innerHTML = "\u00d7";
         li.appendChild(span);
     }
-    input.value = ""; // Clear the input field
+    input.value = ""; 
     saveData();
 }
 
