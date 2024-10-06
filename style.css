@@ -64,24 +64,24 @@ button {
 
 ul {
     position: relative;
-    padding-left: 50px; /* Offset for the pseudo-element */
+    padding-left: 50px;
 }
 
 ul li {
     list-style: none;
     font-size: 17px;
     padding: 12px 8px;
-    padding-left: 60px; /* Added padding to create space between the image and the text */
+    padding-left: 60px; 
     user-select: none;
     cursor: pointer;
-    position: relative; /* Make the pseudo-element relative to the li */
+    position: relative;
 }
 
 ul li::before {
     content: '';
     position: absolute;
     top: 50%;
-    left: 20px; /* Positioning the image with more space from the left */
+    left: 20px;
     transform: translateY(-50%);
     height: 28px;
     width: 28px;
